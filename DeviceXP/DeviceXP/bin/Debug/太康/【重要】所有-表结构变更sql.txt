@@ -1,0 +1,123 @@
+--####### 20240911
+ALTER TABLE [dbo].[DrugOutDetailReturnFlow] ADD [TakeTime] datetime NULL
+GO
+
+EXEC sp_addextendedproperty
+'MS_Description', N'取出时间',
+'SCHEMA', N'dbo',
+'TABLE', N'DrugOutDetailReturnFlow',
+'COLUMN', N'TakeTime'
+
+--####### 20240926
+ALTER TABLE [dbo].[DrugOutDetailReturnFlow] ADD [SourceType] tinyint NULL
+GO
+
+EXEC sp_addextendedproperty
+'MS_Description', N'数据来源(1DrugOutDetail 2PleaseBill)',
+'SCHEMA', N'dbo',
+'TABLE', N'DrugOutDetailReturnFlow',
+'COLUMN', N'SourceType'
+
+ALTER TABLE [dbo].[DrugOutDetailReturnFlow] ADD [TakeUserId] int NULL
+GO
+
+ALTER TABLE [dbo].[DrugOutDetailReturnFlow] ADD [TakeAuthUserId] int NULL
+GO
+
+EXEC sp_addextendedproperty
+'MS_Description', N'取出用户ID',
+'SCHEMA', N'dbo',
+'TABLE', N'DrugOutDetailReturnFlow',
+'COLUMN', N'TakeUserId'
+GO
+
+EXEC sp_addextendedproperty
+'MS_Description', N'取出认证用户ID',
+'SCHEMA', N'dbo',
+'TABLE', N'DrugOutDetailReturnFlow',
+'COLUMN', N'TakeAuthUserId';
+
+--####### 20241011
+ALTER TABLE DrugDept ADD MaxDrugOut INT;
+ALTER TABLE DrugBind ADD MaxDrugOut INT;
+ALTER TABLE PleaseBill ADD UserId1 INT;
+ALTER TABLE PleaseBill ADD UserId2 INT;
+
+CREATE NONCLUSTERED INDEX [idx_DeviceId_Log] ON [dbo].[Log]
+(
+	[DeviceId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY];
+
+CREATE NONCLUSTERED INDEX [idx_DeviceId_BType] ON [dbo].[Log]
+(
+	[BType] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY];
+
+CREATE NONCLUSTERED INDEX [idx_DeviceId_CreateTime] ON [dbo].[Log]
+(
+	[CreateTime] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY];
+
+CREATE NONCLUSTERED INDEX [idx_DeviceId_AuthUserId1] ON [dbo].[Log]
+(
+	[AuthUserId1] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY];
+
+--####### 20241014
+CREATE TABLE [dbo].[UserMaxDrugOut](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[UserID] [int] NULL,
+	[DrugID] [int] NULL,
+	[DrugName] [nvarchar](50) NULL,
+	[MaxDrugOut] [int] NULL,
+ CONSTRAINT [PK_UserMaxDrugOut] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY];
+
+--####### 20241015
+--User表Card字段扩位至3000（原来为50）
+ALTER TABLE [User] ALTER COLUMN Card VARCHAR(3000);
+
+--####### 20241028
+ALTER TABLE ConsumablesCharging ADD CreateTime datetime;
+EXEC sp_addextendedproperty
+'MS_Description', N'创建时间',
+'SCHEMA', N'dbo',
+'TABLE', N'ConsumablesCharging',
+'COLUMN', N'CreateTime';
+
+ALTER TABLE ConsumablesCharging ADD UpdateTime datetime;
+EXEC sp_addextendedproperty
+'MS_Description', N'修改时间',
+'SCHEMA', N'dbo',
+'TABLE', N'ConsumablesCharging',
+'COLUMN', N'UpdateTime';
+
+ALTER TABLE ChargingResponse ADD ResultTime datetime;
+EXEC sp_addextendedproperty
+'MS_Description', N'请求响应结果时间',
+'SCHEMA', N'dbo',
+'TABLE', N'ChargingResponse',
+'COLUMN', N'ResultTime';
+
+--####### 20241029
+----HisBackState 1已退费
+alter table Recipel add  HisBackState int ;
+-- 添加备注
+exec sp_addextendedproperty N'MS_Description', N'1已退费', N'SCHEMA', N'dbo',N'table',N'Recipel',N'column', N'HisBackState';
+
+----HisBackUserId 退费人id
+alter table Recipel add  HisBackUserId int ;
+-- 添加备注
+exec sp_addextendedproperty N'MS_Description', N'退费人id', N'SCHEMA', N'dbo',N'table',N'Recipel',N'column', N'HisBackUserId';
+
+----HisBackTime 退费时间
+alter table Recipel add  HisBackTime datetime ;
+-- 添加备注
+exec sp_addextendedproperty N'MS_Description', N'退费时间', N'SCHEMA', N'dbo',N'table',N'Recipel',N'column', N'HisBackTime';
+
+--####### 20241030
+--ConsumablesCharging表SuiteName字段长度扩位至164（原来为64）
+ALTER TABLE ConsumablesCharging ALTER COLUMN SuiteName VARCHAR(164);

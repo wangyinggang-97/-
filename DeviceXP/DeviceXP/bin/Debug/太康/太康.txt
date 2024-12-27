@@ -1,0 +1,1 @@
+HAreaId  nvarchar(2000)

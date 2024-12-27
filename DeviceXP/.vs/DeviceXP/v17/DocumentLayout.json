@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\workSpace\\DeviceXP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A208A68C-9CEF-4F0D-99A5-D80BF1F4ED56}|DeviceXP\\DeviceXP.csproj|d:\\workspace\\devicexp\\devicexp\\formdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A208A68C-9CEF-4F0D-99A5-D80BF1F4ED56}|DeviceXP\\DeviceXP.csproj|solutionrelative:devicexp\\formdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A208A68C-9CEF-4F0D-99A5-D80BF1F4ED56}|DeviceXP\\DeviceXP.csproj|D:\\workSpace\\DeviceXP\\devicexp\\formdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A208A68C-9CEF-4F0D-99A5-D80BF1F4ED56}|DeviceXP\\DeviceXP.csproj|solutionrelative:devicexp\\formdevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A208A68C-9CEF-4F0D-99A5-D80BF1F4ED56}|DeviceXP\\DeviceXP.csproj|d:\\workspace\\devicexp\\devicexp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A208A68C-9CEF-4F0D-99A5-D80BF1F4ED56}|DeviceXP\\DeviceXP.csproj|solutionrelative:devicexp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A208A68C-9CEF-4F0D-99A5-D80BF1F4ED56}|DeviceXP\\DeviceXP.csproj|d:\\workspace\\devicexp\\devicexp\\device\\devicebase\\serialportbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A208A68C-9CEF-4F0D-99A5-D80BF1F4ED56}|DeviceXP\\DeviceXP.csproj|solutionrelative:devicexp\\device\\devicebase\\serialportbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A208A68C-9CEF-4F0D-99A5-D80BF1F4ED56}|DeviceXP\\DeviceXP.csproj|D:\\workSpace\\DeviceXP\\devicexp\\device\\weightapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A208A68C-9CEF-4F0D-99A5-D80BF1F4ED56}|DeviceXP\\DeviceXP.csproj|solutionrelative:devicexp\\device\\weightapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A208A68C-9CEF-4F0D-99A5-D80BF1F4ED56}|DeviceXP\\DeviceXP.csproj|D:\\workSpace\\DeviceXP\\devicexp\\device\\doorapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A208A68C-9CEF-4F0D-99A5-D80BF1F4ED56}|DeviceXP\\DeviceXP.csproj|solutionrelative:devicexp\\device\\doorapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\workSpace\\DeviceXP\\DeviceXP\\Program.cs",
+              "RelativeDocumentMoniker": "DeviceXP\\Program.cs",
+              "ToolTip": "D:\\workSpace\\DeviceXP\\DeviceXP\\Program.cs",
+              "RelativeToolTip": "DeviceXP\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T05:20:46.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SerialPortBase.cs",
+              "DocumentMoniker": "D:\\workSpace\\DeviceXP\\DeviceXP\\Device\\DeviceBase\\SerialPortBase.cs",
+              "RelativeDocumentMoniker": "DeviceXP\\Device\\DeviceBase\\SerialPortBase.cs",
+              "ToolTip": "D:\\workSpace\\DeviceXP\\DeviceXP\\Device\\DeviceBase\\SerialPortBase.cs",
+              "RelativeToolTip": "DeviceXP\\Device\\DeviceBase\\SerialPortBase.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAD4v1MAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T04:14:09.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeightAPI.cs",
+              "DocumentMoniker": "D:\\workSpace\\DeviceXP\\DeviceXP\\Device\\WeightAPI.cs",
+              "RelativeDocumentMoniker": "DeviceXP\\Device\\WeightAPI.cs",
+              "ToolTip": "D:\\workSpace\\DeviceXP\\DeviceXP\\Device\\WeightAPI.cs",
+              "RelativeToolTip": "DeviceXP\\Device\\WeightAPI.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAjwFoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T10:05:56.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DoorAPI.cs",
+              "DocumentMoniker": "D:\\workSpace\\DeviceXP\\DeviceXP\\Device\\DoorAPI.cs",
+              "RelativeDocumentMoniker": "DeviceXP\\Device\\DoorAPI.cs",
+              "ToolTip": "D:\\workSpace\\DeviceXP\\DeviceXP\\Device\\DoorAPI.cs",
+              "RelativeToolTip": "DeviceXP\\Device\\DoorAPI.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAAFEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T02:25:45.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormDevice.cs",
+              "DocumentMoniker": "D:\\workSpace\\DeviceXP\\DeviceXP\\FormDevice.cs",
+              "RelativeDocumentMoniker": "DeviceXP\\FormDevice.cs",
+              "ToolTip": "D:\\workSpace\\DeviceXP\\DeviceXP\\FormDevice.cs",
+              "RelativeToolTip": "DeviceXP\\FormDevice.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAjwFQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T03:16:22.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormDevice.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\workSpace\\DeviceXP\\DeviceXP\\FormDevice.cs",
+              "RelativeDocumentMoniker": "DeviceXP\\FormDevice.cs",
+              "ToolTip": "D:\\workSpace\\DeviceXP\\DeviceXP\\FormDevice.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "DeviceXP\\FormDevice.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T03:16:19.69Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1652,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

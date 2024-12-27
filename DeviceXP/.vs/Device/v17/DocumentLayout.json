@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\workSpace\\Device\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A208A68C-9CEF-4F0D-99A5-D80BF1F4ED56}|Device\\DeviceXP.csproj|d:\\workspace\\device\\device\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A208A68C-9CEF-4F0D-99A5-D80BF1F4ED56}|Device\\DeviceXP.csproj|solutionrelative:device\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A208A68C-9CEF-4F0D-99A5-D80BF1F4ED56}|Device\\DeviceXP.csproj|d:\\workspace\\device\\device\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A208A68C-9CEF-4F0D-99A5-D80BF1F4ED56}|Device\\DeviceXP.csproj|solutionrelative:device\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\workSpace\\Device\\Device\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Device\\Form1.Designer.cs",
+              "ToolTip": "D:\\workSpace\\Device\\Device\\Form1.Designer.cs",
+              "RelativeToolTip": "Device\\Form1.Designer.cs",
+              "ViewState": "AQIAAPYBAAAAAAAAAAAgwAkCAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T01:11:12.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\workSpace\\Device\\Device\\Form1.cs",
+              "RelativeDocumentMoniker": "Device\\Form1.cs",
+              "ToolTip": "D:\\workSpace\\Device\\Device\\Form1.cs",
+              "RelativeToolTip": "Device\\Form1.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwB0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T01:11:02.74Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1652,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
